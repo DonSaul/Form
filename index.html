@@ -36,6 +36,23 @@
             <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
           </div>
         </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" id="femenino" value="option1" checked>
+            <label class="form-check-label" for="femenino">
+              Femenino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" id="Masculino" value="option2">
+            <label class="form-check-label" for="Masculino">
+              Masculino
+            </label>
+          </div>
+          <div class="form-group" id ="calendar">
+            <label >Fecha de Nacimiento</label>
+            <input type="date" name="bday" max="2002-12-31" 
+                   min="1000-01-01" class="form-control">
+           </div>
        
         <div class="form-row">
           <div class="form-group col-md-6">
@@ -62,9 +79,10 @@
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Registrar</button>
       </form>
    </div>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
